@@ -95,29 +95,12 @@ Please put all the packages under your ROS workspace and compile them.
 ### Basic Configuration
 Robot-specific startup files
 ```
-cd catkin_make/src/
-```
-```
 sudo git clone https://github.com/ros-naoqi/pepper_robot.git
 ```
-```
-cd ..
-```
-```
-catkin_make
-```
+
 ### Hardware Drivers and Simulation
 Naoqi driver python
 ```
-cd catkin_make/src/
-```
-```
 sudo git clone https://github.com/ros-naoqi/naoqi_bridge.git
-```
-```
-cd ..
-```
-```
-catkin_make
 ```
 For more ROS packages, please check the ROS wiki of [pepper](https://wiki.ros.org/pepper).
