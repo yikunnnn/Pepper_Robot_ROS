@@ -74,11 +74,11 @@ If something goes wrong, check that
 ```
 python2 -c 'import sys;print "\n".join(sys.path)'
 ```
-If it is include ```/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages``` That means the current user has read access to the files and subdirectories in this directory. 
+If it includes ```/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages``` That means the current user has read access to the files and subdirectories in this directory. 
 
 Run
 ```
 sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages/
 ```
-The above method of install **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
+The above method of installing **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
 ## ROS Packages
