@@ -93,4 +93,6 @@ The above method of installing **Chorepraphe** and **Python SDK** from [here](ht
 ## ROS Packages
 ### Basic Configuration
 ### Hardware Drivers and Simulation
+Naoqi driver python
+
 For more ROS packages, please check the ROS wiki of [pepper](https://wiki.ros.org/pepper).
