@@ -63,6 +63,7 @@ export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pynaoqi-p
 ```
 echo 'export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages' >> ~/.bashrc
 ```
+For any errors, please check [troubleshooting](http://doc.aldebaran.com/2-5/dev/python/tips-and-tricks.html#python-sdk-troubleshooting).
 Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2```
 ```
 sudo nano /usr/local/bin/qi*
