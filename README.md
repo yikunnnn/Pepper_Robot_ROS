@@ -92,6 +92,19 @@ sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-
 The above method of installing **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
 ## ROS Packages
 ### Basic Configuration
+Robot-specific startup files
+```
+cd catkin_make/src/
+```
+```
+sudo git clone https://github.com/ros-naoqi/pepper_robot.git
+```
+```
+cd ..
+```
+```
+catkin_make
+```
 ### Hardware Drivers and Simulation
 Naoqi driver python
 ```
@@ -102,6 +115,8 @@ sudo git clone https://github.com/ros-naoqi/naoqi_bridge.git
 ```
 ```
 cd ..
+```
+```
 catkin_make
 ```
 For more ROS packages, please check the ROS wiki of [pepper](https://wiki.ros.org/pepper).
