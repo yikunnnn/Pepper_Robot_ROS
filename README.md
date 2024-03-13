@@ -15,6 +15,8 @@ Select ```2.5.10 Setup```
 Run
 ```
 chmod +x choregraphe-suite-2.5.10.7-linux64-setup.run
+```
+```
 sudo ./choregraphe-suite-2.5.10.7-linux64-setup.run
 ```
 Try to run the Chorepraphe
@@ -26,7 +28,10 @@ If the error shown in the terminal is ```/opt/Softbank Robotics/Choregraphe Suit
 Run
 ```
 cd "/opt/Softbank Robotics/Choregraphe Suite 2.5/lib/"
+```
 sudo mv libz.so.1 libz.so.1.old
+```
+```
 sudo ln -s /lib/x86_64-linux-gnu/libz.so.1
 ```
 Now you can use the pre-programmed block in Chorepraphe to control the pepper robot.
@@ -58,7 +63,11 @@ sudo nano /usr/local/bin/qi*
 Test if the naoqi install successfully
 ```
 python2 -c 'from naoqi import ALProxy'
+```
+```
 python2 -c 'import qi'
+```
+```
 python2 -c 'import naoqi'
 ```
 If something goes wrong, check that
