@@ -43,3 +43,15 @@ Download ```pynaoqi-python2.7-2.5.7.1-linux64.tar.gz``` by attached link
 https://www.aldebaran.com/en/support/pepper-naoqi-2-9/downloads-softwares/former-versions?os=49&category=108
 ```
 Select ```2.5.10 Python 2.7 SDK```
+
+Run
+```
+cd /usr/local/lib/python2.7/dist-packages
+sudo tar xvfz <where_the_package_is>/pynaoqi-python2.7-2.5.7.1-linux64.tar.gz
+export PYTHONPATH=${PYTHONPATH}:/path/to/python-sdk/lib/python2.7/site-packages
+echo 'export PYTHONPATH=${PYTHONPATH}:/path/to/python-sdk/lib/python2.7/site-packages' >> ~/.bashrc
+```
+Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2```
+```
+sudo nano /usr/local/bin/qi*
+```
