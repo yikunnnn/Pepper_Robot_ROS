@@ -11,6 +11,7 @@ Download ```choregraphe-suite-2.5.10.7-linux64-setup.run``` by attached link
 ```
 https://www.aldebaran.com/en/support/pepper-naoqi-2-9/downloads-softwares/former-versions?os=49&category=98
 ```
+
 Run
 ```
 chmod +x choregraphe-suite-2.5.10.7-linux64-setup.run
@@ -33,13 +34,12 @@ Now you can use the pre-programmed block in Chorepraphe to control the pepper ro
 ## Python SDK
 This part will explain how to control the pepper robot with Python.
 Check the Python version and make sure it is ```Python 2.7```.
-Install ```python2-dev``` or ```qttools5-dev-tools/qt5-linguist``` or ```qt4-linguist-tools```
+Install ```python2-dev```
 ```
 sudo apt install python2-dev
-or
-sudo apt install qttools5-dev-tools/qt5-linguist
-or
-sudo apt install qt5-linguist
-or
-sudo apt install qt4-linguist-tools
 ```
+Download ```pynaoqi-python2.7-2.5.7.1-linux64.tar.gz``` by attached link
+```
+https://www.aldebaran.com/en/support/pepper-naoqi-2-9/downloads-softwares/former-versions?os=49&category=108
+```
+Select ```2.5.10``` for ```Python 2.7 SDK```
