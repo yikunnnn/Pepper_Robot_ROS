@@ -91,6 +91,7 @@ sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-
 ```
 The above method of installing **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
 ## ROS Packages
+Please put all the packages under your ROS workspace and compile them.
 ### Basic Configuration
 Robot-specific startup files
 ```
