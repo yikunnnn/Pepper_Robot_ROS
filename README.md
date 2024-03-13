@@ -29,6 +29,7 @@ Run
 ```
 cd "/opt/Softbank Robotics/Choregraphe Suite 2.5/lib/"
 ```
+```
 sudo mv libz.so.1 libz.so.1.old
 ```
 ```
