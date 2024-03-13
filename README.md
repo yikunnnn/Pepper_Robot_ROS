@@ -21,9 +21,15 @@ Try to run the Chorepraphe
 "/opt/Softbank Robotics/Choregraphe Suite 2.5/bin/choregraphe_launcher"
 ```
 If the error shown in the terminal is ```/opt/Softbank Robotics/Choregraphe Suite 2.5/bin/../lib/../lib/../lib/libz.so.1: version `ZLIB_1.2.9' not found (required by /usr/lib/x86_64-linux-gnu/libpng16.so.16)```
+
 Run
 ```
 cd "/opt/Softbank Robotics/Choregraphe Suite 2.5/lib/"
 sudo mv libz.so.1 libz.so.1.old
 sudo ln -s /lib/x86_64-linux-gnu/libz.so.1
 ```
+Now you can use the pre-programmed block in Chorepraphe to control the pepper robot
+
+## Python SDK
+This part will explain how to control the pepper robot with Python.
+Check the Python version and make sure it is ```Python 2.7```
