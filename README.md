@@ -1,2 +1,2 @@
 # Pepper_robot_ROS
-Instruction of using ROS communicate with pepper robot
+Instruction on using ROS to communicate with pepper robot.
