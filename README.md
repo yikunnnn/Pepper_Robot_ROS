@@ -11,7 +11,7 @@ Download ```choregraphe-suite-2.5.10.7-linux64-setup.run``` by attached link
 ```
 https://www.aldebaran.com/en/support/pepper-naoqi-2-9/downloads-softwares/former-versions?os=49&category=98
 ```
-
+Select ```2.5.10 Setup```
 Run
 ```
 chmod +x choregraphe-suite-2.5.10.7-linux64-setup.run
@@ -42,4 +42,4 @@ Download ```pynaoqi-python2.7-2.5.7.1-linux64.tar.gz``` by attached link
 ```
 https://www.aldebaran.com/en/support/pepper-naoqi-2-9/downloads-softwares/former-versions?os=49&category=108
 ```
-Select ```2.5.10``` for ```Python 2.7 SDK```
+Select ```2.5.10 Python 2.7 SDK```
