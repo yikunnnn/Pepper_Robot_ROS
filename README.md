@@ -64,6 +64,7 @@ export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pynaoqi-p
 echo 'export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages' >> ~/.bashrc
 ```
 For any errors, please check [troubleshooting](http://doc.aldebaran.com/2-5/dev/python/tips-and-tricks.html#python-sdk-troubleshooting).
+
 Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2```
 ```
 sudo nano /usr/local/bin/qi*
@@ -90,3 +91,6 @@ sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-
 ```
 The above method of installing **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
 ## ROS Packages
+### Basic Configuration
+### Hardware Drivers and Simulation
+For more ROS packages, please check the ROS wiki of [pepper](https://wiki.ros.org/pepper).
