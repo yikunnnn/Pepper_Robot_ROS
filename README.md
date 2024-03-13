@@ -48,10 +48,26 @@ Run
 ```
 cd /usr/local/lib/python2.7/dist-packages
 sudo tar xvfz <where_the_package_is>/pynaoqi-python2.7-2.5.7.1-linux64.tar.gz
-export PYTHONPATH=${PYTHONPATH}:/path/to/python-sdk/lib/python2.7/site-packages
-echo 'export PYTHONPATH=${PYTHONPATH}:/path/to/python-sdk/lib/python2.7/site-packages' >> ~/.bashrc
+export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages
+echo 'export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages' >> ~/.bashrc
 ```
 Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2```
 ```
 sudo nano /usr/local/bin/qi*
+```
+Test if the naoqi install successfully
+```
+python2 -c 'from naoqi import ALProxy'
+python2 -c 'import qi'
+python2 -c 'import naoqi'
+```
+If something goes wrong, check that
+```
+python2 -c 'import sys;print "\n".join(sys.path)'
+```
+If it is include ```/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages``` That means the current user has read access to the files and subdirectories in this directory. 
+
+Run
+```
+sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages/
 ```
