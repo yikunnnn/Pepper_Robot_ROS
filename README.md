@@ -1,5 +1,5 @@
 # Pepper_robot_ROS
-Instruction on using ROS to communicate with pepper robot
+Instruction on using ROS to communicate with pepper robot.
 ## OS and ROS Version
 OS: Ubuntu 18.04
 
@@ -28,8 +28,18 @@ cd "/opt/Softbank Robotics/Choregraphe Suite 2.5/lib/"
 sudo mv libz.so.1 libz.so.1.old
 sudo ln -s /lib/x86_64-linux-gnu/libz.so.1
 ```
-Now you can use the pre-programmed block in Chorepraphe to control the pepper robot
+Now you can use the pre-programmed block in Chorepraphe to control the pepper robot.
 
 ## Python SDK
 This part will explain how to control the pepper robot with Python.
-Check the Python version and make sure it is ```Python 2.7```
+Check the Python version and make sure it is ```Python 2.7```.
+Install ```python2-dev``` or ```qttools5-dev-tools/qt5-linguist``` or ```qt4-linguist-tools```
+```
+sudo apt install python2-dev
+or
+sudo apt install qttools5-dev-tools/qt5-linguist
+or
+sudo apt install qt5-linguist
+or
+sudo apt install qt4-linguist-tools
+```
