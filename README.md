@@ -1,4 +1,4 @@
-# Pepper_robot_ROS
+# Pepper_Robot_ROS_Communication
 Instruction on using ROS to communicate with pepper robot.
 ## OS and ROS Version
 OS: Ubuntu 18.04
