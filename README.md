@@ -89,9 +89,11 @@ Run
 ```
 sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages/
 ```
+Now, you can use **from naoqi import ALProxy** at the start of your ROS script and using the corresponding API in [here](http://doc.aldebaran.com/2-5/index_dev_guide.html) to control the pepper robot.
+
 The above method of installing **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
 ## ROS Packages
-Please copy all the packages under your ROS workspace and compile them.
+Please copy all the packages under your ROS workspace and compile them. These ROS packages organised all the sensors on pepper robot and published as ROS topic.
 ### Basic Configuration
 ```
 sudo git clone https://github.com/ros-naoqi/pepper_robot.git
@@ -114,7 +116,8 @@ Naoqi driver python
 ```
 sudo git clone https://github.com/ros-naoqi/naoqi_bridge.git
 ```
-### Run Naoqi
+### Run
+Before running the launch file, please change the **type="state_publisher"** to **type="robot_state_publisher"** in the **pepper_publisher.launch**. Change **pepper_robot.xacro** to **pepper.urdf** in the **pepper_upload.launch**. Don't forget change the Ip address in the **pepper_full_py.launch** and the other launch files' Ip address shown in this file.
 ```
 roscore
 ```
