@@ -99,10 +99,28 @@ sudo git clone https://github.com/ros-naoqi/pepper_robot.git
 ```
 sudo apt-get install ros-melodic-pepper-meshes
 ```
+```
+sudo git clone https://github.com/ros-naoqi/libqi.git
+```
+```
+sudo git clone https://github.com/ros-naoqi/libqicore.git
+```
+```
+sudo git clone https://github.com/ros-naoqi/naoqi_bridge.git
+```
 
 ### Hardware Drivers and Simulation
 Naoqi driver python
 ```
 sudo git clone https://github.com/ros-naoqi/naoqi_bridge.git
 ```
+### Run Naoqi
+```
+roscore
+```
+```
+roslaunch pepper_bringup pepper_full_py.launch
+```
+If you might any error when running the **pepper_full_py.launch**, please check the message shown in terminal to install the missing package.
+
 For more ROS packages, please check the ROS wiki of [pepper](https://wiki.ros.org/pepper).
