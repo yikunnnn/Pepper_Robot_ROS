@@ -91,11 +91,13 @@ sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-
 ```
 The above method of installing **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
 ## ROS Packages
-Please put all the packages under your ROS workspace and compile them.
+Please copy all the packages under your ROS workspace and compile them.
 ### Basic Configuration
-Robot-specific startup files
 ```
 sudo git clone https://github.com/ros-naoqi/pepper_robot.git
+```
+```
+sudo apt-get install ros-melodic-pepper-meshes
 ```
 
 ### Hardware Drivers and Simulation
