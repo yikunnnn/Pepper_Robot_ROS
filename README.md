@@ -124,6 +124,6 @@ roscore
 ```
 roslaunch pepper_bringup pepper_full_py.launch
 ```
-If you might any error when running the **pepper_full_py.launch**, please check the message shown in terminal to install the missing package.
+If you might any error when running the **pepper_full_py.launch**, please check the message shown in terminal to install the missing package. The above code is a simple example to control the pepper robot by keyboard, it's also have the function of obstacle detection.
 
 For more ROS packages, please check the ROS wiki of [pepper](https://wiki.ros.org/pepper).
