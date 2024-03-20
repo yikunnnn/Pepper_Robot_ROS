@@ -107,9 +107,6 @@ sudo git clone https://github.com/ros-naoqi/libqi.git
 ```
 sudo git clone https://github.com/ros-naoqi/libqicore.git
 ```
-```
-sudo git clone https://github.com/ros-naoqi/naoqi_bridge.git
-```
 
 ### Hardware Drivers and Simulation
 Naoqi driver python
