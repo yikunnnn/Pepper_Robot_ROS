@@ -1,9 +1,11 @@
 # Pepper_Robot_ROS_Communication
 Instruction on using ROS to communicate with pepper robot.
-## OS and ROS Version
+## OS, ROS Version, and Pepper Robot Version
 OS: Ubuntu 18.04
 
 ROS: Melodic
+
+Pepper Robot:1.6
 ## Chorepraphe
 This is the official pepper software.
 
