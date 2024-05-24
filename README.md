@@ -67,7 +67,7 @@ echo 'export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pyn
 ```
 For any errors, please check [troubleshooting](http://doc.aldebaran.com/2-5/dev/python/tips-and-tricks.html#python-sdk-troubleshooting).
 
-Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2```
+Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2``` (If there are no any scripts show, run the next step to test if the naoqi install successfully. If yes, please ignore this step.)
 ```
 sudo nano /usr/local/bin/qi*
 ```
@@ -87,7 +87,7 @@ python2 -c 'import sys;print "\n".join(sys.path)'
 ```
 If it includes ```/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages``` That means the current user has read access to the files and subdirectories in this directory. 
 
-Run
+Run this command if the path already been added but the test is failed
 ```
 sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages/
 ```
