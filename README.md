@@ -67,7 +67,7 @@ echo 'export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pyn
 ```
 For any errors, please check [troubleshooting](http://doc.aldebaran.com/2-5/dev/python/tips-and-tricks.html#python-sdk-troubleshooting).
 
-Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2``` (If there are no any scripts show, run the next step to test if the naoqi install successfully. If yes, please ignore this step.)
+Edit ```/usr/local/bin/qi*``` and change the first line from ```#!/usr/bin/python``` to ```#!/usr/bin/python2``` (If there are no any scripts show, run the next step to test if the naoqi install successfully. If yes, please ignore this step. Conversely, go to the error check step.)
 ```
 sudo nano /usr/local/bin/qi*
 ```
