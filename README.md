@@ -87,7 +87,7 @@ python2 -c 'import sys;print "\n".join(sys.path)'
 ```
 If it includes ```/usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages``` That means the current user has read access to the files and subdirectories in this directory. 
 
-Run this command if the path already been added but the test is failed
+Run this command if the path already been added but the test is failed.
 ```
 sudo chmod 755 /usr/local/lib/python2.7/dist-packages/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages/
 ```
