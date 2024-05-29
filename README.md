@@ -95,7 +95,14 @@ Now, you can use **from naoqi import ALProxy** at the start of your ROS script a
 
 The above method of installing **Chorepraphe** and **Python SDK** from [here](https://nlp.fi.muni.cz/trac/pepper/wiki/InstallationInstructions).
 ## ROS Packages
-Please copy all the packages under your ROS workspace and compile them. These ROS packages organised all the sensors on pepper robot and published as ROS topic.
+Please copy all the packages under your ROS workspace and compile them. These ROS packages organised all the sensors on pepper robot and published as ROS topic. Before copying the packages, please check the dependencies.
+### Dependencies
+```
+sudo apt-get install ros-melodic-octomap
+```
+```
+sudo apt-get install ros-melodic-camera-info-manager*
+```
 ### Basic Configuration
 ```
 sudo git clone https://github.com/ros-naoqi/pepper_robot.git
