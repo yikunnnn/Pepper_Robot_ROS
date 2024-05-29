@@ -98,7 +98,7 @@ The above method of installing **Chorepraphe** and **Python SDK** from [here](ht
 Please copy all the packages under your ROS workspace and compile them. These ROS packages organised all the sensors on pepper robot and published as ROS topic. Before copying the packages, please check the dependencies.
 ### Dependencies
 ```
-sudo apt-get install ros-melodic-octomap
+sudo apt-get install ros-melodic-octomap*
 ```
 ```
 sudo apt-get install ros-melodic-camera-info-manager*
