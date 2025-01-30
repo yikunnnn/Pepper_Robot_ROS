@@ -6,7 +6,7 @@ OS: Ubuntu 18.04
 ROS: Melodic
 
 Pepper Robot:1.6
-## Chorepraphe
+## Choregraphe
 This is the official pepper software.
 
 Download ```choregraphe-suite-2.5.10.7-linux64-setup.run``` by attached link
