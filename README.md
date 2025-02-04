@@ -11,7 +11,7 @@ This is the official pepper software.
 
 Download ```choregraphe-suite-2.5.10.7-linux64-setup.run``` by attached link
 ```
-https://www.aldebaran.com/en/support/pepper-naoqi-2-9/downloads-softwares/former-versions?os=49&category=98
+https://community-static.aldebaran.com/resources/2.5.10/Choregraphe/choregraphe-suite-2.5.10.7-linux64-setup.run
 ```
 Select ```2.5.10 Setup```
 Run
@@ -48,7 +48,7 @@ sudo apt install python2-dev
 ```
 Download ```pynaoqi-python2.7-2.5.7.1-linux64.tar.gz``` by attached link
 ```
-https://www.aldebaran.com/en/support/pepper-naoqi-2-9/downloads-softwares/former-versions?os=49&category=108
+https://community-static.aldebaran.com/resources/2.5.10/Python%20SDK/pynaoqi-python2.7-2.5.7.1-linux64.tar.gz
 ```
 Select ```2.5.10 Python 2.7 SDK```
 
